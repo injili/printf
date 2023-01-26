@@ -29,3 +29,6 @@ if (FLAGS_CH[j] == 0)
 	}
 
 *i = curr_i - 1;
+
+return (flags);
+}
