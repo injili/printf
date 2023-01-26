@@ -27,3 +27,5 @@ flags |= FLAGS_ARR[j];
 if (FLAGS_CH[j] == 0)
 			break;
 	}
+
+*i = curr_i - 1;
