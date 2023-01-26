@@ -68,6 +68,8 @@ void print_number(int n)
  */
 int count_digit(int i)
 {
+	/*beginning of function*/
+
 	unsigned int d = 0;
 	unsigned int u;
 
