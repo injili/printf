@@ -1,1 +1,2 @@
-## This is the readme file to this repository
+# 0x11 - printf
+For this project, we buildt our own printf function as is in C.
