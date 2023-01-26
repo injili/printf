@@ -59,7 +59,7 @@ int get_flag(char s, flags_t *f);
 int print_string(va_list l, flags_t *f);
 int print_char(va_list l, flags_t *f);
 
-/* write_funcs */
+/* write_functions */
 int _putchar(char c);
 int _puts(char *str);
 
