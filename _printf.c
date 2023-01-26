@@ -8,6 +8,7 @@
  * Return: printed characters
  */
 
+
 int _printf(const char *format, ...)
 {
 	int (*pfunc)(va_list, flags_t *);
@@ -33,7 +34,9 @@ int _printf(const char *format, ...)
 				continue;
 			}
 			while (get_flag(*p, &flags))
+			{
 				p++;
+			}
 			pfunc = get_print(*p);
 			count += (pfunc)
 				? pfunc(arguments, &flags)
