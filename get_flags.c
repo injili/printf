@@ -20,3 +20,6 @@ const char FLAGS_CH[] = {'-', '+', '0', '#', ' ', '\0'};
 for (j = 0; FLAGS_CH[j] != '\0'; j++)
 			if (format[curr_i] == FLAGS_CH[j])
 			{
+flags |= FLAGS_ARR[j];
+				break;
+			}
